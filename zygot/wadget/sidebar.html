@@ -1,0 +1,23 @@
+<div class="col-2 h-100 bg-white p-2 position-relative" style="display: flex;flex-direction: column; justify-content: space-between;">
+    
+    <div class="">
+        <div style="font-family: monospace;" class="h1 fs-5 text-uppercase text-center bg-primary text-white p-2 rounded"><?= $data['data']['name'] ?></div>
+        <?php 
+        $data_menu = [
+            ["href" => "dashboard",     "label" => "dashboard",       "icon" => ""],
+            ["href" => "create-post",   "label" => "create post",     "icon" => ""],
+            ["href" => "company-email",  "label" => "mailing service",   "icon" => ""],
+            ["href" => "theme-update",  "label" => "themes Layout",   "icon" => ""],
+            ["href" => "new team",  "label" => "update team",   "icon" => ""],
+            ["href" => "settings",      "label" => "profile settings","icon" => ""],
+        ];
+        
+        foreach ($data_menu as $value) {
+            echo "<a href='" . htmlspecialchars($value['href']) . "' class='menu-link text-secondary fs-5 d-block p-2 text-decoration-none text-capitalize'>" . htmlspecialchars($value['label']) . "</a>\n";
+        }
+        ?>
+    </div>
+    <div class="text-center bg-primary text-white p-2" style="font-size:x-small;">
+        <span>copyright design @frontendplux</span>
+    </div>
+</div>

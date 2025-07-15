@@ -1,0 +1,160 @@
+{
+    "data":{
+        "name" : "eonwelenergy",
+        "title" : "EONWEL Energy & Power Services Ltd – Nigerian Indigenous Energy & Power Solutions",
+        "page" : "Home",
+        "desc" : "EONWEL Energy & Power Services Ltd is a Nigerian indigenous company providing world-class services in the Oil & Gas and Power industries, compliant with Local Content Act for manpower and equipment development.",
+        "kw" : "EONWEL Energy & Power Services Ltd, EONWEL Nigerian energy company, EONWEL oil and gas services, EONWEL power industry solutions, Nigerian indigenous energy company, Local content compliant energy company Nigeria, Oil and gas manpower development Nigeria, Power sector equipment provider Nigeria, Customer-focused energy company Nigeria",
+        "email" : "info@eonwelenergy.com",
+        "phone" : "+234-XXX-XXX-XXXX",
+        "address" : "52, Hassan Adeshola, Lagos, Nigeria",
+        "facebook" : "https://facebook.com/eonwelenergy",
+        "twitter"  : "https://twitter.com/eonwelenergy",
+        "linkedin" : "https://linkedin.com/company/eonwelenergy",
+        "instagram" : "https://instagram.com/eonwelenergy",
+        "youtube" : "https://youtube.com/channel/eonwelenergy"
+   },
+   "curousol":[
+        {
+            "title":"Pipeline and Maintenance services",
+            "image":"carousel-1.jpg",
+            "header":"Efficient Residential Plumbing Services",
+            "description":"elitr justo clitVero a lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr."
+        },
+        {
+            "title":"Installation, Operation & Maintenance",
+            "image":"carousel-2.jpg",
+            "header":"Efficient Commercial Plumbing Services",
+            "description":"Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr."
+        }
+    ],
+  "header-severces-image-title":[
+    {
+        "image":"service-1.jpg",
+        "alt":"",
+        "title":"Residential Plumbing"
+    },
+    {
+        "image":"service-2.jpg",
+        "alt":"",
+        "title":"Commercial samuel  "
+    },
+    {
+        "image":"service-3.jpg",
+        "alt":"",
+        "title":"Emergency Servicing"
+    }
+  ],
+
+"headers-hero":"bg.jpg",
+
+"aboutus":{
+    "image-1":"about-1.jpg",
+    "image-2":"about-2.jpg",
+    "header":"We Are Trusted Plumbing Company Since 1990x",
+    "description":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet",
+    "menu":[
+        "Residential & commercial plumbing",
+        "Quality services at affordable prices",
+        "Immediate 24/ 7 emergency services"
+    ]
+},  
+
+"experience":{
+    "year-of-experience":"123",
+    "expert-technicians":"1234",
+    "satisfied-clients":"1234",
+    "compleate-projects":"1234"
+},
+
+"services":[
+    {
+        "icon":"fa-water",
+        "title":"Drain Repairpair",
+        "description":"Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.",
+        "list":["Quality Service","Customer Satisfaction","Support 24/7"]
+    },
+    {
+        "icon":"fa-toilet",
+        "title":"Toilet Pipe Repair",
+        "description":"Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.",
+        "list":["Quality Service","Customer Satisfaction","Support 24/7"]
+    },
+    {
+        "icon":"fa-shower",
+        "title":"Sewer Line Repair",
+        "description":"Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.",
+        "list":["Quality Service","Customer Satisfaction","Support 24/7"]
+    }
+],
+
+"video-pompt":{
+    "header":"Emergency Plumbing Service",
+    "sub-header":"24 Hours 7 Days a Week",
+    "link":"youtube.com"
+},
+
+"technicians":[
+    {
+    "fullname":"abiodun bangbose",
+    "job":"lawyer",
+    "image":"team-1.jpg",
+    "social-handle":{
+                      "facebook":"",
+                      "twitter":"",
+                      "instagram":""
+                    }
+    },
+    {
+        "fullname":"abiodun moriamo",
+        "job":"lawyer",
+        "image":"team-2.jpg",
+        "social-handle":{
+                          "facebook":"",
+                          "twitter":"",
+                          "instagram":""
+                        }
+        },
+        {
+            "fullname":"samuel temidere",
+            "job":"lawyer",
+            "image":"team-3.jpg",
+            "social-handle":{
+                              "facebook":"",
+                              "twitter":"",
+                              "instagram":""
+                            }
+            }
+],
+
+"testimonial":[
+    {
+    "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.",
+    "image":"testimonial-1.jpg", 
+    "stars":"6",
+    "fullname":"sheyi tunubu",  
+    "Profession":"tailor"
+    },
+    {
+    "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.",
+    "image":"testimonial-2.jpg", 
+    "stars":"4",
+    "fullname":"sheyi tunubu",  
+    "Profession":"tailor"
+    },
+    {
+    "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.",
+    "image":"testimonial-3.jpg", 
+    "stars":"2",
+    "fullname":"manakuli tunubu",  
+    "Profession":"mechanic"
+    },
+    {
+    "message":"Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.",
+    "image":"testimonial-4.jpg", 
+    "stars":"5",
+    "fullname":"sheyi idiot",  
+    "Profession":"capenter"
+    }
+]
+}

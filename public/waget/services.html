@@ -1,0 +1,49 @@
+<div class="container-fluid py-5 px-4 px-lg-0">
+    <div class="row g-0">
+        <div class="col-lg-3 d-none d-lg-flex">
+            <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
+                <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);"><?= $data['experience']['year-of-experience']; ?> Years Experience</h1>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-9">
+            <div class="ms-lg-5 ps-lg-5">
+                <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Our Services</h6>
+                    <h1 class="mb-5">Explore Our Services</h1>
+                </div>
+                <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                    <?php
+                    foreach ($data['services'] as $service) {
+                        $icon        = $service['icon'];
+                        $title       = $service['title'];
+                        $description = $service['description'];
+                        $listItems   = [];
+                    
+                        if (!empty($service['list']) && is_array($service['list'])) {
+                            foreach ($service['list'] as $item) {
+                                $listItems[] = <<< _end
+                    <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>{$item}</p>
+                    _end;
+                            }
+                        }
+                    
+                        $listHtml = implode('', $listItems);
+                    
+                        echo <<< _end
+                    <div class="bg-light p-4">
+                      <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
+                        <i class="fa {$icon} fa-2x text-primary"></i>
+                      </div>
+                      <h4 class="mb-3">{$title}</h4>
+                      <p>{$description}</p>
+                      {$listHtml}
+                      <a href="" class="btn bg-white text-primary w-100 mt-2">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                    </div>
+                    _end;
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

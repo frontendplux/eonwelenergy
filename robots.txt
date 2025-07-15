@@ -1,0 +1,11 @@
+# Allow all crawlers full access to main site URLs
+User-agent: *
+Disallow:
+
+# Block direct crawling of internal folders (security)
+Disallow: /public/
+Disallow: /adminer/
+Disallow: /admin/
+
+# Sitemap location (replace with your actual sitemap URL)
+Sitemap: https://www.eonwelenergy.com/sitemap
